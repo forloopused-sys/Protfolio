@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio – Your Name</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="nav-header">
+        <nav class="navbar" id="navbar">
+            <div class="logo"><a href="#home">YourLogo</a></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="section home" id="home">
+        <div class="container">
+            <h1 class="fade-in">Hello, I'm <span class="highlight">Your Name</span></h1>
+            <p class="fade-in delay-1">Frontend Developer • UI/UX Enthusiast</p>
+            <a href="#projects" class="btn primary-btn fade-in delay-2">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container grid">
+            <div class="about-img fade-in">
+                <!-- Replace with your photo -->
+                <img src="https://via.placeholder.com/300" alt="Your Photo" />
+            </div>
+            <div class="about-text fade-in delay-1">
+                <h2>About Me</h2>
+                <p>
+                    Passionate developer with experience building modern, responsive web applications.
+                    I love turning ideas into beautiful, functional digital experiences.
+                </p>
+                <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <div class="project-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card fade-in">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 1" />
+                    <div class="card-content">
+                        <h3>Project One</h3>
+                        <p>A brief description of the project, technologies used, and what it accomplishes.</p>
+                        <a href="#" class="btn small-btn">Live Demo</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card fade-in delay-1">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 2" />
+                    <div class="card-content">
+                        <h3>Project Two</h3>
+                        <p>A brief description of the project, technologies used, and what it accomplishes.</p>
+                        <a href="#" class="btn small-btn">Live Demo</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card fade-in delay-2">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 3" />
+                    <div class="card-content">
+                        <h3>Project Three</h3>
+                        <p>A brief description of the project, technologies used, and what it accomplishes.</p>
+                        <a href="#" class="btn small-btn">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Me</h2>
+            <form class="contact-form fade-in delay-1" action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
